@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[33]:
-
-
 from selenium import webdriver as opsele
 from selenium.webdriver.common.keys import Keys
 import pyautogui
@@ -56,17 +50,3 @@ elif opcao == "Garrafa":
     tempopc.sleep(8)
     meuNavegador.find_element_by_xpath('//*[@id="lb"]/div/g-menu/g-menu-item[3]/div').click()
     escrever.alert("Origada por aguardar o Rpa terminou a pesquisa, pode verificar")
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
