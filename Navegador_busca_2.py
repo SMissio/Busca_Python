@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 from selenium import webdriver as opsele
 from selenium.webdriver.common.keys import Keys
 import pyautogui
@@ -16,7 +10,6 @@ tempopc.sleep(2)
 opcao = pyautogui.confirm('Escolha a opção desejada',buttons = ['Caneca', 'Copo','Garrafa'])
 
 if opcao == "Copo":
-    Navegor.get("https://www.google.com/")
     tempopc.sleep(6)
     Navegor.find_element_by_name("q").send_keys("Copo valor")
     escolher_opcao.press('Enter')
@@ -26,7 +19,6 @@ if opcao == "Copo":
     Navegor.find_element_by_xpath('//*[@id="rcnt"]/div[2]/div/div/div[3]/div[2]/div/div/span[1]/div/a').click()
     escrever.alert("Origada por aguardar o Rpa terminou a pesquisa, pode verificar")
 elif opcao == "Caneca":
-    Navegor.get("https://www.google.com/")
     tempopc.sleep(6)
     Navegor.find_element_by_name("q").send_keys("Caneca valor")
     escolher_opcao.press('Enter')
@@ -40,7 +32,6 @@ elif opcao == "Caneca":
     tempopc.press('enter')
     escrever.alert("Origada por aguardar o Rpa terminou a pesquisa, pode verificar")
 elif opcao == "Garrafa":
-    Navegor.get("https://www.google.com/")
     tempopc.sleep(6)
     Navegor.find_element_by_name("q").send_keys("Garrafa valor")
     escolher_opcao.press('Enter')
@@ -52,10 +43,3 @@ elif opcao == "Garrafa":
     Navegor.find_element_by_xpath('//*[@id="lb"]/div/g-menu/g-menu-item[3]/div').click()
     escrever.alert("Origada por aguardar o Rpa terminou a pesquisa, pode verificar")
     
-
-
-# In[ ]:
-
-
-
-
