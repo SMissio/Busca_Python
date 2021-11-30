@@ -1,0 +1,9 @@
+pyautogui = modelo para automação de teclado e mouse com o python.
+-------------------
+selenium = biblioteca usada para para aplicações com a web ( navegador )
+-------------------
+webdriver = modulo que executa o browser
+-------------------
+xlsxwriter = modulo para interagir com excel
+-------------------
+def = usado para definir função.
